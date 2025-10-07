@@ -14,13 +14,25 @@ replay_pid*
 *.iml
 .vscode/
 
-# Build dirs (orice tool)
+# Build dirs (any tool)
 bin/
 out/
 build/
 target/
 
 # OS junk
+.DS_Store
+Thumbs.db
+
+# Maven build output
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS
 .DS_Store
 Thumbs.db
 
