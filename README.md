@@ -1,6 +1,12 @@
 README.md (Markdown content)
 # 🔐 SecureChat — Java (Sockets) with Diffie–Hellman + AES
 
+[![Java CI with Maven](https://github.com/CellaIoana/SecureChat-Java/actions/workflows/maven.yml/badge.svg)](https://github.com/CellaIoana/SecureChat-Java/actions/workflows/maven.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Java](https://img.shields.io/badge/Java-23-blue)
+
+Java sockets chat using AES encryption and Diffie–Hellman key exchange.
+
 Console chat over TCP sockets with a **secure channel**:
 - **Diffie–Hellman** key exchange (per connection)
 - **AES** message encryption (GCM-ready; current impl uses hashed shared secret)
@@ -57,4 +63,6 @@ docs/          # screenshots/diagrams (optional)
 
 ## 📝 License
 MIT — see LICENSE.
+
+
 
